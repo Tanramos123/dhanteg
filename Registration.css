@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url('Images/ShoesBackground.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RegistrationForm {
+    background: rgba(255, 255, 255, 0.6); /* White background with opacity */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Adds the blur effect */
+    width: 400px; /* Set width to your preference */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2 {
+    text-align: center;
+}
+.RegForm {
+    margin-bottom: 15px;
+}
+.RegForm label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+.RegForm input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.RegForm input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.RegForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
