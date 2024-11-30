@@ -23,27 +23,27 @@ body {
 h2 {
     text-align: center;
 }
-.RegForm {
+.RForm {
     margin-bottom: 15px;
 }
-.RegForm label {
+.RForm label {
     display: block;
     font-size: 14px;
     color: #333;
 }
-.RegForm input {
+.RForm input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.RegForm input[type="submit"] {
+.RForm input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
 }
-.RegForm input[type="submit"]:hover {
+.RForm input[type="submit"]:hover {
     background-color: #45a049;
 }
